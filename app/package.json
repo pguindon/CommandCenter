@@ -20,8 +20,8 @@
     "js"
   ],
   "dependencies": {
-    "electron": "latest",
-    "electron-rebuild": "latest",
+    "electron": "~1.6.16",
+    "electron-rebuild": "^1.7.2",
     "lockfile": "^1.0.4"
   },
   "author": "Carlo Maria Curinga",
