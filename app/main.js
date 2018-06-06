@@ -107,8 +107,8 @@ app.on('ready', () => {
     kiosk: !!(electronConfig.URL_LAUNCHER_KIOSK),
     webPreferences: {
       sandbox: false,
-      //nodeIntegration: !!(electronConfig.URL_LAUNCHER_NODE),
-      nodeIntegration: true,
+      nodeIntegration: !!(electronConfig.URL_LAUNCHER_NODE),
+      //nodeIntegration: true,
       zoomFactor: electronConfig.URL_LAUNCHER_ZOOM,
       overlayScrollbars: !!(electronConfig.URL_LAUNCHER_OVERLAY_SCROLLBARS),
     },
