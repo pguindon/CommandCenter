@@ -7,7 +7,8 @@
     "dev": "NODE_ENV=development electron .",
     "lint": "eslint .",
     "start": "NODE_ENV=production startx ./node_modules/electron/dist/electron .",
-    "local": "NODE_ENV=production electron ."
+    "local": "NODE_ENV=production electron .",
+    "bower": "bower"
   },
   "repository": {
     "type": "git",
