@@ -22,7 +22,7 @@ body {
 
 .webview {
   display:inline-flex;
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
 }
 
