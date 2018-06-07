@@ -42,7 +42,7 @@ RUN JOBS=MAX npm install --unsafe-perm --production && npm cache clean --force &
   rm -rf /tmp/* && node_modules/.bin/electron-rebuild
 
 #Get Bower Dep
-RUN JOBS=bower install --allow-root
+RUN JOBS=bower install
 
 # Move app to filesystem
 COPY ./app ./
