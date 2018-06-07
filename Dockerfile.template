@@ -41,11 +41,8 @@ COPY ./app/package.json ./
 RUN JOBS=MAX npm install --unsafe-perm --production && npm cache clean --force && \
   rm -rf /tmp/* && node_modules/.bin/electron-rebuild
 
-# Move to app dir
-WORKDIR /usr/src/app
-
 #Get Bower Dep
-RUN JOBS=bower install
+RUN bower install
 
 # Move app to filesystem
 COPY ./app ./
