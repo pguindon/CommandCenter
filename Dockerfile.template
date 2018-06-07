@@ -38,8 +38,11 @@ WORKDIR /usr/src/app
 COPY ./app/package.json ./
 
 # Install npm modules for the application
-RUN JOBS=MAX npm install --unsafe-perm --production && bower install --allow-root && npm cache clean --force && \
+RUN JOBS=MAX npm install --unsafe-perm --production && npm cache clean --force && \
   rm -rf /tmp/* && node_modules/.bin/electron-rebuild
+
+#Get Bower Dep
+RUN JOBS=bower install --allow-root
 
 # Move app to filesystem
 COPY ./app ./
