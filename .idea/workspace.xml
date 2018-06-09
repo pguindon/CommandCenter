@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706e7491-38ef-4d0d-b4b3-6728e93bc86c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/style/StickyNotes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/data/view/threestack.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/view/threestack.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,17 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/data/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StickyNotes.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/data/style/StickyNotes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -42,26 +30,8 @@
       <file leaf-file-name="threestack.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/view/threestack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threevertical.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/data/view/threevertical.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -78,12 +48,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#99#105#1" expanded="true" />
-                <element signature="e#124#131#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -125,10 +91,10 @@
         <option value="$PROJECT_DIR$/app/data/style/sticky-footer-navbar.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/data/view/threevertical.html" />
-        <option value="$PROJECT_DIR$/app/data/style/StickyNotes.css" />
         <option value="$PROJECT_DIR$/app/data/scripts/StickyNotes.js" />
-        <option value="$PROJECT_DIR$/app/data/view/threestack.html" />
         <option value="$PROJECT_DIR$/app/data/index.js" />
+        <option value="$PROJECT_DIR$/app/data/style/StickyNotes.css" />
+        <option value="$PROJECT_DIR$/app/data/view/threestack.html" />
         <option value="$PROJECT_DIR$/app/data/index.html" />
       </list>
     </option>
@@ -959,7 +925,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528558583503</updated>
       <workItem from="1528558584780" duration="12147000" />
-      <workItem from="1528574207729" duration="947000" />
+      <workItem from="1528574207729" duration="3399000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'remotes/origin/master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;app/bower.json&#10;#&#9;app/data/index.html&#10;#&#9;app/data/style/sticky-footer-navbar.css">
       <created>1528573687417</created>
@@ -975,11 +941,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528573868402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
+      <created>1528575166937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528575166937</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
+      <created>1528575404116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528575404116</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
+      <created>1528577248319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528577248319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13985000" />
+    <option name="totallyTimeSpent" value="16437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="30" width="1890" height="930" extended-state="0" />
@@ -1067,10 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#99#105#1" expanded="true" />
-            <element signature="e#124#131#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,17 +1170,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/view/halfhalf.html">
+    <entry file="file://$PROJECT_DIR$/app/data/scripts/StickyNotes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-end-line="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/view/threestack.html">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="492">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1208,42 +1194,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/scripts/StickyNotes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/style/StickyNotes.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="660">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/data/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#99#105#1" expanded="true" />
-            <element signature="e#124#131#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/view/halfhalf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/view/threestack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/data/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
