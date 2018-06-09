@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "bootstrap": "^4.1.1",
-    "fontawesome": "^5.0.13"
+    "fontawesome": "^5.0.13",
+    "jquery-ui": "^1.12.1"
   }
 }

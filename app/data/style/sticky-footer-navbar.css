@@ -4,12 +4,14 @@ html {
   position: relative;
   height: 100vh;
 }
+
 body {
   /* Margin bottom by footer height */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -21,7 +23,7 @@ body {
 }
 
 .webview {
-  display:inline-flex;
+  display: inline-flex;
   min-height: 90vh;
   width: 100%;
 }
@@ -31,8 +33,6 @@ body {
   padding-top: 50px;
   min-height: 100%;
 }
-
-
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -50,3 +50,4 @@ body > .container {
 code {
   font-size: 80%;
 }
+
