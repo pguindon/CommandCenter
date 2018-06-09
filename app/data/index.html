@@ -70,7 +70,7 @@
             <webview id="foo" class="webview" src="https://www.onenote.com/notebooks" ></webview>
           </div>
           <div class="col-lg-4">
-            <webview id="foo" class="webview" src="https://teams.microsoft.com/" ></webview>
+            <webview id="foo" class="webview" src="" ></webview>
             </div>
           <div class="col-lg-4">
             <webview id="foo" class="webview" src="https://www.github.com/"></webview>
@@ -82,33 +82,93 @@
     <footer class="footer">
       <div class="container">
 
-        <!-- Default dropup button -->
-        <div class="btn-group dropup">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="far fa-heart"></i> Happiness
-          </button>
-          <div class="dropdown-menu">
-            <!-- Dropdown menu links -->
-            <span class="dropdown-item">Person &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-5x"></i></span> </span>
-            <span class="dropdown-item">Person &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-5x"></i></span> </span>
-            <span class="dropdown-item">Person &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-5x"></i></span> </span>
-            <span class="dropdown-item">Person &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-5x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-5x"></i></span> </span>
+        <div style="float:left">
+          <!-- Happiness Results -->
+          <img src="img/happiness_results.png" style="height:80px;height:80px;">
+
+
+          <!-- Default dropup button for Happiness Board -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-primary dropdown-toggle footer-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="far fa-heart"></i> Happiness
+            </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              <span class="dropdown-item"><img src="img/TigerHappyAvatars.png" class="happiness-image"> &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-4x"></i></span> </span>
+              <span class="dropdown-item"><img src="img/PandaHappyAvatars.png" class="happiness-image"> &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-4x"></i></span> </span>
+              <span class="dropdown-item"><img src="img/BearHappyAvatars.png" class="happiness-image"> &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-4x"></i></span> </span>
+              <span class="dropdown-item"><img src="img/FoxHappyAvatars.png" class="happiness-image"> &nbsp; &nbsp; <span style="color: #58D68D"><i class="far fa-smile fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #F4D03F"><i class="far fa-meh fa-4x"></i></span> &nbsp; &nbsp; <span style="color: #EC7063"><i class="far fa-frown fa-4x"></i></span> </span>
+            </div>
           </div>
         </div>
 
-        <!-- Default dropup button -->
-        <div class="btn-group dropup">
-          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="far fa-hand-point-right"></i> Sound off
-          </button>
-          <div class="dropdown-menu">
-            <!-- Dropdown menu links -->
-            <span class="dropdown-item"><span style="color: #F4D03F"><i class="far fa-star fa-5x"></i></span> &nbsp; &nbsp; You are awesome!</span>
-            <span class="dropdown-item"><span style="color: #5DADE2"><i class="far fa-thumbs-up fa-5x"></i></span> &nbsp; &nbsp; Well done!</span>
-            <span class="dropdown-item"><span style="color: #EC7063"><i class="far fa-hand-rock fa-5x"></i></span> &nbsp; &nbsp; You rock!</span>
-            <span class="dropdown-item"><span style="color: #F4D03F"><i class="fas fa-trophy fa-5x"></i></span> &nbsp; &nbsp; You're the best!</span>
-            <span class="dropdown-item"><span style="color: #58D68D"><i class="far fa-smile fa-5x"></i></span> &nbsp; &nbsp; Have a good day!</span>
-            <span class="dropdown-item"><span style="color: #C39BD3"><i class="fas fa-birthday-cake fa-5x"></i></span> &nbsp; &nbsp; Happy Birthday!</span>
+        <div style="float:right">
+          <!-- Default dropup button for Feedback -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/person1.jpg" class="footer-image footer-vacation">
+              <div style="position:relative;float:right"><i class="fas fa-suitcase" style="color: #BA4A00"></i></div> Jane
+            </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              <span class="dropdown-item"><i class="far fa-star fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You are awesome!</span>
+              <span class="dropdown-item"><i class="far fa-thumbs-up fa-3x" style="color: #5DADE2"></i> &nbsp; &nbsp; Well done!</span>
+              <span class="dropdown-item"><i class="far fa-hand-rock fa-3x" style="color: #EC7063"></i> &nbsp; &nbsp; You rock!</span>
+              <span class="dropdown-item"><i class="fas fa-trophy fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You're the best!</span>
+              <span class="dropdown-item"><i class="far fa-smile fa-3x" style="color: #58D68D"></i> &nbsp; &nbsp; Have a good day!</span>
+              <span class="dropdown-item"><i class="fas fa-birthday-cake fa-3x" style="color: #C39BD3"></i> &nbsp; &nbsp; Happy Birthday!</span>
+            </div>
+          </div>
+
+          <!-- Default dropup button -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/person2.jpg" class="footer-image">
+              Josh
+            </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              <span class="dropdown-item"><i class="far fa-star fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You are awesome!</span>
+              <span class="dropdown-item"><i class="far fa-thumbs-up fa-3x" style="color: #5DADE2"></i> &nbsp; &nbsp; Well done!</span>
+              <span class="dropdown-item"><i class="far fa-hand-rock fa-3x" style="color: #EC7063"></i> &nbsp; &nbsp; You rock!</span>
+              <span class="dropdown-item"><i class="fas fa-trophy fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You're the best!</span>
+              <span class="dropdown-item"><i class="far fa-smile fa-3x" style="color: #58D68D"></i> &nbsp; &nbsp; Have a good day!</span>
+              <span class="dropdown-item"><i class="fas fa-birthday-cake fa-3x" style="color: #C39BD3"></i> &nbsp; &nbsp; Happy Birthday!</span>
+            </div>
+          </div>
+
+          <!-- Default dropup button -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/person3.jpg" class="footer-image">
+              <div style="position:relative;float:right"><i class="fas fa-birthday-cake" style="color: #6C3483"></i></div> Arthur
+            </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              <span class="dropdown-item"><i class="far fa-star fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You are awesome!</span>
+              <span class="dropdown-item"><i class="far fa-thumbs-up fa-3x" style="color: #5DADE2"></i> &nbsp; &nbsp; Well done!</span>
+              <span class="dropdown-item"><i class="far fa-hand-rock fa-3x" style="color: #EC7063"></i> &nbsp; &nbsp; You rock!</span>
+              <span class="dropdown-item"><i class="fas fa-trophy fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You're the best!</span>
+              <span class="dropdown-item"><i class="far fa-smile fa-3x" style="color: #58D68D"></i> &nbsp; &nbsp; Have a good day!</span>
+              <span class="dropdown-item"><i class="fas fa-birthday-cake fa-3x" style="color: #C39BD3"></i> &nbsp; &nbsp; Happy Birthday!</span>
+            </div>
+          </div>
+
+          <!-- Default dropup button -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="img/person4.jpg" class="footer-image">
+              Rose
+            </button>
+            <div class="dropdown-menu">
+              <!-- Dropdown menu links -->
+              <span class="dropdown-item"><i class="far fa-star fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You are awesome!</span>
+              <span class="dropdown-item"><i class="far fa-thumbs-up fa-3x" style="color: #5DADE2"></i> &nbsp; &nbsp; Well done!</span>
+              <span class="dropdown-item"><i class="far fa-hand-rock fa-3x" style="color: #EC7063"></i> &nbsp; &nbsp; You rock!</span>
+              <span class="dropdown-item"><i class="fas fa-trophy fa-3x" style="color: #F4D03F"></i> &nbsp; &nbsp; You're the best!</span>
+              <span class="dropdown-item"><i class="far fa-smile fa-3x" style="color: #58D68D"></i> &nbsp; &nbsp; Have a good day!</span>
+              <span class="dropdown-item"><i class="fas fa-birthday-cake fa-3x" style="color: #C39BD3"></i> &nbsp; &nbsp; Happy Birthday!</span>
+            </div>
           </div>
         </div>
 
