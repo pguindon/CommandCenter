@@ -109,5 +109,11 @@ Temporary Items
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
+>>>>>>> master
+app/bower_components
+=======
+app/bower_components
+.idea
 >>>>>>> master
 app/bower_components

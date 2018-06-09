@@ -15,6 +15,14 @@ app.config(function ($routeProvider, $locationProvider) {
     .otherwise({ redirectTo: '/threevertical' });
 });
 
+
 app.controller('MainCtrl', function ($scope) {
+
+
+
+});
+
+app.controller('ThreeeStackCtrl', function ($scope) {
+
 
 });
