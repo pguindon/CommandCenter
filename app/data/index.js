@@ -12,6 +12,9 @@ app.config(function ($routeProvider, $locationProvider) {
     .when('/halfhalf', {
       templateUrl: 'view/halfhalf.html',
     })
+    .when('/dan', {
+	      templateUrl: 'view/dan.html',
+    })
     .otherwise({ redirectTo: '/threevertical' });
 });
 
