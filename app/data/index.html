@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="app">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +16,7 @@
     <link href="style/sticky-footer-navbar.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body ng-controller="MainCtrl as main">
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">3-UP-Vertical<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#!/threevertical">3-UP-Vertical<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">3-UP-Stack</a>
+              <a class="nav-link" href="#!/threestack">3-UP-Stack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Half-&-Half</a>
+              <a class="nav-link" href="#!/halfhalf"">Half-&-Half</a>
             </li>
           </ul>
 
@@ -64,18 +64,8 @@
 
     <!-- Begin page content -->
     <main role="main" class="main">
-      <div class="">
-        <div class="row no-gutters">
-          <div class="col-lg-4">
-            <webview id="foo" class="webview" src="https://www.onenote.com/notebooks" ></webview>
-          </div>
-          <div class="col-lg-4">
-            <webview id="foo" class="webview" src="https://teams.microsoft.com/" ></webview>
-            </div>
-          <div class="col-lg-4">
-            <webview id="foo" class="webview" src="https://www.github.com/"></webview>
-          </div>
-        </div>
+      <div class="view-animate-container">
+        <div ng-view class="view-animate"></div>
       </div>
     </main>
 
@@ -90,6 +80,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../bower_components/bootstrap/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.min.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="index.js"></script>
     <script src="../bower_components/bootstrap/assets/js/vendor/popper.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
