@@ -12,37 +12,52 @@
     <!-- Bootstrap core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="style/sticky-footer-navbar.css" rel="stylesheet">
   </head>
 
   <body>
-
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+        <a class="navbar-brand title" href="#">
+          <img src="img/cmd_light.png" class="mr-2" style="width: 40px" alt="">
+          CommandCenter
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">3-UP-Vertical<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">3-UP-Stack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">Half-&-Half</a>
             </li>
           </ul>
 
-          <button type="button" class="btn btn-light">
-            <i class="fas fa-envelope"></i>
-            <span class="badge badge-danger">1</span>
-          </button>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <button type="button" class="btn btn-light">
+                Msg
+                <i class="fas fa-envelope"></i>
+                <span class="badge badge-danger">1</span>
+              </button>
+            </li>
+            <li class="nav-item ml-3">
+              <button type="button" class="btn btn-light">
+                Build's
+                <i class="fas fa-circle-notch fa-spin"></i>
+                <span class="badge badge-danger">Fail</span>
+              </button>
+            </li>
+
+          </ul>
+
         </div>
       </nav>
     </header>
