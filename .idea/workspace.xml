@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="706e7491-38ef-4d0d-b4b3-6728e93bc86c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/data/style/StickyNotes.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/style/StickyNotes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/view/threestack.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/view/threestack.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/data/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StickyNotes.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/data/style/StickyNotes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -38,12 +30,8 @@
       <file leaf-file-name="threestack.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/view/threestack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#99#105#1" expanded="true" />
-                <element signature="e#124#131#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,7 +48,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -104,10 +92,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/data/view/threevertical.html" />
         <option value="$PROJECT_DIR$/app/data/scripts/StickyNotes.js" />
-        <option value="$PROJECT_DIR$/app/data/index.html" />
         <option value="$PROJECT_DIR$/app/data/index.js" />
-        <option value="$PROJECT_DIR$/app/data/view/threestack.html" />
         <option value="$PROJECT_DIR$/app/data/style/StickyNotes.css" />
+        <option value="$PROJECT_DIR$/app/data/view/threestack.html" />
+        <option value="$PROJECT_DIR$/app/data/index.html" />
       </list>
     </option>
   </component>
@@ -846,13 +834,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="resin-electronjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resin-electronjs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -944,7 +925,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528558583503</updated>
       <workItem from="1528558584780" duration="12147000" />
-      <workItem from="1528574207729" duration="2885000" />
+      <workItem from="1528574207729" duration="3399000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'remotes/origin/master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;app/bower.json&#10;#&#9;app/data/index.html&#10;#&#9;app/data/style/sticky-footer-navbar.css">
       <created>1528573687417</created>
@@ -974,24 +955,31 @@
       <option name="project" value="LOCAL" />
       <updated>1528575404116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
+      <created>1528577248319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528577248319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15923000" />
+    <option name="totallyTimeSpent" value="16437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="30" width="1890" height="930" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61717355" visible="true" weight="0.24933119" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61717355" visible="true" weight="0.24933119" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5040128" side_tool="true" visible="true" weight="0.32893157" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996986" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49819058" weight="0.32947975" />
       <window_info id="Structure" order="1" sideWeight="0.38282648" side_tool="true" visible="true" weight="0.24933119" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49598715" visible="true" weight="0.32893157" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49598715" visible="true" weight="0.32893157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1045,10 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="13" />
-          <folding>
-            <element signature="e#99#105#1" expanded="true" />
-            <element signature="e#124#131#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,20 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1224,6 +1194,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/style/StickyNotes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/view/halfhalf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1233,19 +1217,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/data/view/threestack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#99#105#1" expanded="true" />
-            <element signature="e#124#131#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/style/StickyNotes.css">
+    <entry file="file://$PROJECT_DIR$/app/data/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
