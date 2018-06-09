@@ -50,3 +50,7 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+.title {
+  font-variant: small-caps;
+}
