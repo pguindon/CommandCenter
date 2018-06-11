@@ -1,5 +1,7 @@
 const app = angular.module('app', ["ngRoute", "ngAnimate", "ui.calendar"]);
 
+
+
 app.config(function ($routeProvider, $locationProvider) {
 
   $routeProvider
@@ -17,6 +19,8 @@ app.config(function ($routeProvider, $locationProvider) {
     })
     .otherwise({ redirectTo: '/threevertical' });
 });
+
+
 
 
 app.controller('MainCtrl', function ($scope) {
@@ -39,4 +43,7 @@ app.controller('MainCtrl', function ($scope) {
   };
 
 
+
 });
+
+
