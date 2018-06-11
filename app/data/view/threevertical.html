@@ -10,8 +10,9 @@
       <div>
         <div class="msj-rta macro" style="margin:auto">
           <div class="text text-r" style="background:whitesmoke !important">
-            <input class="mytext" placeholder="Type a message"/>
+            <input class="mytext" ng-model="chatbox"/>
           </div>
+          <button ng-click='addchat(chatbox)'>Submit</button>
         </div>
       </div>
     </div>

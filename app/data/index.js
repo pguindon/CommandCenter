@@ -23,7 +23,7 @@ app.config(function ($routeProvider, $locationProvider) {
 
 
 
-app.controller('MainCtrl', function ($scope) {
+app.controller('MainCtrl', ['$scope', function ($scope) {
 
   $scope.eventSources = [];
 
@@ -42,8 +42,12 @@ app.controller('MainCtrl', function ($scope) {
     }
   };
 
+  $scope.chatbox = 'Type a Message';
+  //insertChat("me", text);
+  $scope.addchat = function(text) {
+    insertChat("me", text);
+  };
 
-
-});
+}]);
 
 

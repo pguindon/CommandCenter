@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706e7491-38ef-4d0d-b4b3-6728e93bc86c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/data/js/chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data/style/chat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/bower.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/js/chat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/data/view/threevertical.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/view/threevertical.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,16 +24,16 @@
         <entry file="file://$PROJECT_DIR$/app/data/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="62" column="17" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="62" selection-end-column="17" />
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/data/js/chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="287">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threevertical.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="threevertical.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/data/view/threevertical.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/data/style/chat.css">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/data/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="299">
+              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -118,11 +116,11 @@
         <option value="$PROJECT_DIR$/app/data/style/StickyNotes.css" />
         <option value="$PROJECT_DIR$/app/data/view/threestack.html" />
         <option value="$PROJECT_DIR$/app/data/style/sticky-footer-navbar.css" />
-        <option value="$PROJECT_DIR$/app/data/index.js" />
         <option value="$PROJECT_DIR$/app/data/style/chat.css" />
         <option value="$PROJECT_DIR$/app/data/index.html" />
-        <option value="$PROJECT_DIR$/app/data/view/threevertical.html" />
         <option value="$PROJECT_DIR$/app/data/js/chat.js" />
+        <option value="$PROJECT_DIR$/app/data/index.js" />
+        <option value="$PROJECT_DIR$/app/data/view/threevertical.html" />
       </list>
     </option>
   </component>
@@ -969,7 +967,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528558583503</updated>
       <workItem from="1528558584780" duration="12147000" />
-      <workItem from="1528574207729" duration="9198000" />
+      <workItem from="1528574207729" duration="11952000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'remotes/origin/master' into bruce&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;app/bower.json&#10;#&#9;app/data/index.html&#10;#&#9;app/data/style/sticky-footer-navbar.css">
       <created>1528573687417</created>
@@ -1017,7 +1015,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22236000" />
+    <option name="totallyTimeSpent" value="24990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="30" width="1890" height="930" extended-state="0" />
@@ -1240,10 +1238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/index.js">
+    <entry file="file://$PROJECT_DIR$/app/data/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" lean-forward="true" selection-start-column="72" selection-end-column="72" />
+        <state relative-caret-position="280">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1254,13 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="62" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/style/sticky-footer-navbar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -1268,27 +1259,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/data/view/threevertical.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/data/js/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="287">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#li#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/data/view/threevertical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
