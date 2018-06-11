@@ -1,4 +1,4 @@
-const app = angular.module('app', ["ngRoute", "ngAnimate"]);
+const app = angular.module('app', ["ngRoute", "ngAnimate", "ui.calendar"]);
 
 app.config(function ($routeProvider, $locationProvider) {
 
@@ -21,11 +21,22 @@ app.config(function ($routeProvider, $locationProvider) {
 
 app.controller('MainCtrl', function ($scope) {
 
+  $scope.eventSources = [];
 
-
-});
-
-app.controller('ThreeeStackCtrl', function ($scope) {
+  $scope.uiConfig = {
+    calendar:{
+      height: 500,
+      editable: true,
+      header:{
+        left: 'month basicWeek basicDay agendaWeek agendaDay',
+        center: 'title',
+        right: 'today prev,next'
+      },
+      eventClick: $scope.alertEventOnClick,
+      eventDrop: $scope.alertOnDrop,
+      eventResize: $scope.alertOnResize
+    }
+  };
 
 
 });
