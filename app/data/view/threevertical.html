@@ -4,7 +4,6 @@
       <webview id="foo" class="webview" src="https://www.onenote.com/notebooks" ></webview>
     </div>
     <div class="col-lg-4 mb-5">
-
       <div class="frame">
       <ul class="ul-frame"></ul>
       <div>
@@ -16,9 +15,7 @@
         </div>
       </div>
     </div>
-
   </div>
-
     <div class="col-lg-4">
       <div class="row no-gutters">
         <div class="col-12 cal">
@@ -42,13 +39,12 @@
           </md-event-calendar>
         </div>
       </div>
-
-
       <div class="row no-gutters">
         <div class="col-12">
-          <div class="card bg-light mt-2">
-            <div class="card-body">
-              This is a happy messages, with a happy meaning - Patrick
+          <div class="card bg-light mt-2" ng-repeat="msg in msg">
+            <div class="card-body" >
+              <i class="fas fa-envelope"></i>
+              {{msg.msg}} - {{msg.from}}
             </div>
           </div>
         </div>

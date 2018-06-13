@@ -44,6 +44,22 @@ app.controller('MainCtrl', ['$scope', function ($scope, $compile, $timeout) {
     insertChat("me", text);
   };
 
+  $scope.msg = [
+    {
+      msg: "This is a happy messages, with a happy meaning",
+      from: "Patrick"
+    },
+    {
+      msg: "You guys are the best",
+      from: "Sam"
+    },
+    {
+      msg: "Dont forget your time sheet",
+      from: "Jane"
+    }
+
+  ]
+
 }]);
 
 
