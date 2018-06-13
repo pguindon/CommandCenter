@@ -21,10 +21,10 @@
     "js"
   ],
   "dependencies": {
+    "bower": "latest",
     "electron": "~1.6.16",
     "electron-rebuild": "^1.7.2",
-    "lockfile": "^1.0.4",
-    "bower": "latest"
+    "lockfile": "^1.0.4"
   },
   "author": "Carlo Maria Curinga",
   "license": "Apache-2.0",

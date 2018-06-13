@@ -29,7 +29,7 @@
     "angular-route": "^1.7.1",
     "angular-animate": "^1.7.1",
     "jquery-ui": "^1.12.1",
-    "angular-ui-calendar": "^1.0.2",
-    "angular-chat": "^2.0.0"
+    "angular-chat": "^2.0.0",
+    "angular-material-event-calendar": "^0.1.4"
   }
 }

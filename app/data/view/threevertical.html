@@ -10,9 +10,9 @@
       <div>
         <div class="msj-rta macro" style="margin:auto">
           <div class="text text-r" style="background:whitesmoke !important">
-            <input class="mytext" ng-model="chatbox"/>
+            <input class="mytext" ng-model="chatbox" placeholder="Type a Message"/>
           </div>
-          <button ng-click='addchat(chatbox)'>Submit</button>
+          <button class="btn btn-secondary" ng-click='addchat(chatbox)'>Submit</button>
         </div>
       </div>
     </div>
@@ -21,10 +21,29 @@
 
     <div class="col-lg-4">
       <div class="row no-gutters">
-        <div class="col-12">
-          <div class="calendar-cust" ui-calendar="uiConfig.calendar" ng-model="eventSources"></div>
+        <div class="col-12 cal">
+
+          <md-event-calendar
+            ng-model="selected"
+            md-events="events"
+            md-event-click="eventClicked($selectedEvent)"
+            md-label="title",
+            md-show-create-link="true"
+            md-create-event-click="eventCreatea($date)"
+            md-create-disabled="true"
+            auto-height="450px"
+            class="md-primary"
+          >
+            <md-event-calendar-header class="md-center">
+              <md-event-calendar-prev></md-event-calendar-prev>
+              <md-event-calendar-title></md-event-calendar-title>
+              <md-event-calendar-next></md-event-calendar-next>
+            </md-event-calendar-header>
+          </md-event-calendar>
         </div>
       </div>
+
+
       <div class="row no-gutters">
         <div class="col-12">
           <div class="card bg-light mt-2">
