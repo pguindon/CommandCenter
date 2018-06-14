@@ -58,7 +58,12 @@ app.controller('MainCtrl', ['$scope', function ($scope, $compile, $timeout) {
       from: "Jane"
     }
 
-  ]
+  ];
+
+  $scope.reset = function () {
+    resetChat();
+
+  }
 
 }]);
 
