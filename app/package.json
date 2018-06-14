@@ -21,7 +21,7 @@
     "js"
   ],
   "dependencies": {
-    "electron": "~1.6.16",
+    "electron": "latest",
     "electron-rebuild": "^1.7.2",
     "lockfile": "^1.0.4",
     "bower": "latest"
