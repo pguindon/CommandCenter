@@ -18,6 +18,15 @@ app.config(function ($routeProvider, $locationProvider) {
     .when('/dan', {
 	      templateUrl: 'view/dan.html',
     })
+    .when('/jira', {
+		      templateUrl: 'view/jira.html',
+    })
+    .when('/trello', {
+		      templateUrl: 'view/trello.html',
+    })
+    .when('/leankitoctopus', {
+		      templateUrl: 'view/leankitoctopus.html',
+    })
     .otherwise({ redirectTo: '/threevertical' });
 });
 
