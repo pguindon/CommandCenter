@@ -22,9 +22,9 @@
   ],
   "dependencies": {
     "electron": "latest",
+    "bower": "latest",
     "electron-rebuild": "^1.7.2",
-    "lockfile": "^1.0.4",
-    "bower": "latest"
+    "lockfile": "^1.0.4"
   },
   "author": "Carlo Maria Curinga",
   "license": "Apache-2.0",
